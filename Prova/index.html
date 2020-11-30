@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Notas</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <div class="content">
+
+            <h1>Controle de Contas</h1>    
+
+          
+            
+            <form>
+                <div>
+                    <label>Descrição </label>
+                    <input type="text" id="descricao">
+                </div>
+                 <div>
+                    <label>Valor</label>
+                    <input type="number" id="valor">
+                </div>
+                 <div>
+                    <label>Data de vencimeto </label>
+                    <input type="text" id="Da_vencimeto">
+                </div>
+                <div>
+                    <label>Tipo</label>
+                    <input type="text" id="tipo">
+                </div>
+                <input type="button" id="addControle" value="Salva">
+            </form>
+
+            <table id="contas">
+                <tr>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Data de vencimeto</th>
+                    <th>Tipo</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+            </table>
+             <label id="saldo">Saldo: </label>
+
+
+        </div>
+        <script src="js/index.js"></script>
+
+       
+    </body>
+</html>
